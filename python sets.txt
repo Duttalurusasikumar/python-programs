@@ -1,0 +1,4 @@
+# Creating Set  
+Month = {"January", "February", "March", "April", "May", "June", "July"}  
+print(Month)  
+print(type(Month))  

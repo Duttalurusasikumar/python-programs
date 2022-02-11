@@ -1,0 +1,9 @@
+# Creating string using double quotes  
+str1 = "Hi Python"  
+print(str1)  
+# Creating string using single quotes  
+str1 = 'Hi Python'  
+print(str1)  
+# Creating string using triple quotes  
+str1 = '''Hi Python'''  
+print(str1)  

@@ -1,0 +1,3 @@
+Name = "James"   # the name of a student is James  
+Marks = 90            # defining student's marks  
+Branch = "Computer Science"   # defining student branch 

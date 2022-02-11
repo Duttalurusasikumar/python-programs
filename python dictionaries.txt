@@ -1,0 +1,4 @@
+employee = {"Name": "John", "Age": 29, "salary":250000,"Company":"GOOGLE"}      
+print(type(employee))      
+print("printing Employee data .... ")      
+print(employee)  
