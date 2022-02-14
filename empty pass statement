@@ -1,0 +1,6 @@
+# Empty Function  
+def function_name(args):  
+    pass  
+#Empty Class  
+class Python:  
+    pass  
