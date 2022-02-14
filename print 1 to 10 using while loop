@@ -1,0 +1,5 @@
+i=1  
+#The while loop will iterate until condition becomes false.  
+While(i<=10):    
+    print(i)   
+    i=i+1   
