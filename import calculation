@@ -1,0 +1,16 @@
+#place the code in the calculation.py   
+def summation(a,b):  
+    return a+b  
+def multiplication(a,b):  
+    return a*b;  
+def divide(a,b):  
+    return a/b;  
+    
+    
+    
+    
+    from calculation import summation    
+#it will import only the summation() from calculation.py  
+a = int(input("Enter the first number"))  
+b = int(input("Enter the second number"))  
+print("Sum = ",summation(a,b)) #we do not need to specify the module name while accessing summation()
