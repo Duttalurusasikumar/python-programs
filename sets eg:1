@@ -1,0 +1,7 @@
+# Empty curly braces will create dictionary  
+set3 = {}  
+print(type(set3))  
+  
+# Empty set using set() function  
+set4 = set()  
+print(type(set4))  
