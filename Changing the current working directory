@@ -1,0 +1,5 @@
+import os   
+# Changing current directory with the new directiory  
+os.chdir("C:\\Users\\DEVANSH SHARMA\\Documents")  
+#It will display the current working directory  
+os.getcwd()  
