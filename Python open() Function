@@ -1,0 +1,4 @@
+# opens python.text file of the current directory  
+f = open("python.txt")  
+# specifying full path  
+f = open("C:/Python33/README.txt")  
