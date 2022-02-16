@@ -1,0 +1,7 @@
+#displayMsg prints a message to the name being passed.   
+def displayMsg(name)  
+    print("Hi "+name);  
+    
+    import file;  
+name = input("Enter the name?")  
+file.displayMsg(name)  
