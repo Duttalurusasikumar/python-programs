@@ -1,0 +1,14 @@
+class Student:  
+    id = 0  
+    name = ""  
+      
+    def __init__(self, id, name):  
+        self.id = id  
+        self.name = name  
+          
+student = Student(102,"Sohan")  
+print(student.id)  
+print(student.name)  
+#print(student.email) product error  
+setattr(student, 'email','sohan@abc.com') # adding new attribute  
+print(student.email)  
