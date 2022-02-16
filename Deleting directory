@@ -1,0 +1,3 @@
+import os  
+#removing the new directory     
+os.rmdir("directory_name")    
