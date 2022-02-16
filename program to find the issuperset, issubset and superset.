@@ -1,0 +1,12 @@
+set1 = set(["Peter","James","Camroon","Ricky","Donald"])  
+set2 = set(["Camroon","Washington","Peter"])  
+set3 = set(["Peter"])  
+  
+issubset = set1 >= set2  
+print(issubset)  
+issuperset = set1 <= set2  
+print(issuperset)  
+issubset = set3 <= set2  
+print(issubset)  
+issuperset = set2 >= set3  
+print(issuperset)  
