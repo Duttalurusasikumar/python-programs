@@ -1,0 +1,14 @@
+# for integers  
+print(float(9))  
+  
+# for floats  
+print(float(8.19))  
+  
+# for string floats  
+print(float("-24.27"))  
+  
+# for string floats with whitespaces  
+print(float("     -17.19\n"))  
+  
+# string float error  
+print(float("xyz"))  
