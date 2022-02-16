@@ -1,0 +1,4 @@
+set1 = set(["Peter","Joseph", 65,59,96])  
+set2  = set(["Peter",1,2,"Joseph"])  
+set3 = set1.union(set2)  
+print(set3)  
