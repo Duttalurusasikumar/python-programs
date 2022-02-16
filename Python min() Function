@@ -1,0 +1,6 @@
+# Calling function  
+small = min(2225,325,2025) # returns smallest element  
+small2 = min(1000.25,2025.35,5625.36,10052.50)  
+# Displaying result  
+print(small)  
+print(small2)  
