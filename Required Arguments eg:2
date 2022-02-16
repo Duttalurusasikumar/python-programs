@@ -1,0 +1,4 @@
+#the function calculate returns the sum of two arguments a and b    
+def calculate(a,b):    
+    return a+b    
+calculate(10) # this causes an error as we are missing a required arguments b. 
