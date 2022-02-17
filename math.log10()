@@ -1,0 +1,3 @@
+import math    
+x=13  # small value of of x    
+print('log10(x) is :', math.log10(x))
