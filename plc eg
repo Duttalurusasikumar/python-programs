@@ -1,0 +1,2 @@
+letters = [ letter for letter in 'Python' ]  
+print( letters)  
