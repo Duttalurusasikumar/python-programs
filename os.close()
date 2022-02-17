@@ -1,0 +1,6 @@
+import os     
+fr = "Python1.txt"    
+file = open(fr, 'r')     
+text = file.read()     
+print(text)     
+os.close(file)       
