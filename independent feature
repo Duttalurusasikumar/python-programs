@@ -1,0 +1,3 @@
+z = featureassembler.transform(dataset)  
+finlized_data = z.select("Indepenent feature", "Yearly Amount Spent",)  
+z.show()  
