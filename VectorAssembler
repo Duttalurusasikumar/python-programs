@@ -1,0 +1,5 @@
+frompyspark.ml.linalg import Vectors  
+frompyspark.ml.feature import VectorAssembler  
+featureassembler = VectorAssembler(inputCols = ["Avg Session Length","Time on App","Time on Website"],outputCol = "Independent Features")  
+output = featureassembler.transform(dataset)  
+output.show()  
