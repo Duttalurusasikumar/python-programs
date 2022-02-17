@@ -1,0 +1,5 @@
+import os  
+# It will throw a Permission error; that's why we have to change the current working directory.  
+os.rmdir("d:\\newdir")  
+os.chdir("..")  
+os.rmdir("newdir")  
