@@ -1,0 +1,3 @@
+import math  
+number = math.ceil(10.25201)  
+print("The floor value is:",number) 
