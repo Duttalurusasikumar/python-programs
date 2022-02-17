@@ -1,0 +1,5 @@
+frompyspark.sql import SparkSession  
+spark = SparkSession.builder.appName('Customer').getOrCreate()  
+frompyspark.ml.regression import LinearRegression  
+dataset = spark.read.csv(r'C:\Users\DEVANSH SHARMA\Ecommerce-Customers.csv')  
+dataset.show(10)  
