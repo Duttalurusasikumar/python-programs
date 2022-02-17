@@ -1,0 +1,4 @@
+from collections import ChainMap  
+baseline = {'Name': 'Peter', 'Age': '14'}  
+adjustments = {'Age': '14', 'Roll_no': '0012'}  
+print(list(ChainMap(adjustments, baseline)))  
