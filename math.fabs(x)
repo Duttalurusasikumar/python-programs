@@ -1,0 +1,3 @@
+import math  
+number = math.fabs(10.001)  
+print("The floor absolute is:",number)  
