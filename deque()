@@ -1,0 +1,4 @@
+from collections import deque    
+list = ["x","y","z"]    
+deq = deque(list)    
+print(deq)    
