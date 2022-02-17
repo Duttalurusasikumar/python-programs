@@ -1,0 +1,17 @@
+import os     
+import sys    
+    
+path1 = os.access("Python.txt", os.F_OK)     
+print("Exist path:", path1)     
+      
+# Checking access with os.R_OK     
+path2 = os.access("Python.txt", os.R_OK)     
+print("It access to read the file:", path2)     
+      
+# Checking access with os.W_OK     
+path3 = os.access("Python.txt", os.W_OK)     
+print("It access to write the file:", path3)     
+      
+# Checking access with os.X_OK     
+path4 = os.access("Python.txt", os.X_OK)     
+print("Check if path can be executed:", path4)    
