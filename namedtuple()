@@ -1,0 +1,2 @@
+pranshu = ('James', 24, 'M')    
+print(pranshu)    
