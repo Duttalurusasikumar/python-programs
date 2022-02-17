@@ -1,0 +1,3 @@
+import math  
+number = math.modf(44.5)  
+print("The modf of number:",number)  
