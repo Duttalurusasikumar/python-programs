@@ -1,0 +1,9 @@
+# importing "random" module.  
+import random  
+# using random() to generate a random number  
+# between 0 and 1  
+print("The random number between 0 and 1 is : ", end="")  
+print(random.random())  
+  
+# using seed() to seed a random number  
+random.seed(4)  
