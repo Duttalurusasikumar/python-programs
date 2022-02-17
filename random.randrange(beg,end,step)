@@ -1,0 +1,6 @@
+# We are using randrange() function to generate in range from 100  
+# to 500. The last parameter 10 is step size to skip  
+# ten numbers when selecting.  
+import random  
+print ("A random number from range is : ",end="")  
+print (random.randrange(100, 500, 10))  
