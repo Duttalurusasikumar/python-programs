@@ -1,0 +1,4 @@
+import os     
+fd = "python.txt"    
+os.rename(fd,'Python1.txt')     
+os.rename(fd,'Python1.txt')   
